@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="iw1zcmlCN7ruTD2oJIMB">
-    <mxGraphModel dx="1450" dy="3076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1785" dy="3246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -90,7 +90,7 @@
             <mxPoint x="-14" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZubQR4aYvmvtuhd5omgF-17" value="2. Visualiser les notes d&#39;un étudiant" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="ZubQR4aYvmvtuhd5omgF-9" vertex="1">
+        <mxCell id="ZubQR4aYvmvtuhd5omgF-17" value="2. Visualiser le profil d&#39;un étudiant" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="ZubQR4aYvmvtuhd5omgF-9" vertex="1">
           <mxGeometry x="110" y="430" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZubQR4aYvmvtuhd5omgF-19" value="4. Demander l&#39;autorisation de visualiser un profil" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="ZubQR4aYvmvtuhd5omgF-9" vertex="1">
