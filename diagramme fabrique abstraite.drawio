@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
   <diagram name="Page-1" id="9fIKVV0lhJtbEZcVpyxV">
-    <mxGraphModel dx="2277" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1407" dy="295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,12 +16,12 @@
         <mxCell id="ZC5CJX0L-R8nSynFKBdD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeWidth=1;endSize=20;curved=1;" parent="1" source="ZC5CJX0L-R8nSynFKBdD-11" target="ZC5CJX0L-R8nSynFKBdD-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="645" />
+              <mxPoint x="540" y="580" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZC5CJX0L-R8nSynFKBdD-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ListeEtudianteAccessibleEcole&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- loginEcole : string&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ __construct(numeroPage : int, nbEtudiantPage : int, loginEcole : string)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getWhereListe() : string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getValueSQL() : string&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="650" y="590" width="415" height="110" as="geometry" />
+        <mxCell id="ZC5CJX0L-R8nSynFKBdD-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ListeEtudianteAccessibleEcole&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- loginEcole : string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;- decorateur : ListeEtudiante&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ __construct(loginEcole : string, decorateur : ListeEtudiante)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getWhereListe() : string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getValueSQL() : string&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="670" y="520" width="340" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ZC5CJX0L-R8nSynFKBdD-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=block;endFill=0;endSize=20;" parent="1" source="ZC5CJX0L-R8nSynFKBdD-14" target="ZC5CJX0L-R8nSynFKBdD-5" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -34,14 +34,14 @@
         <mxCell id="ZC5CJX0L-R8nSynFKBdD-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=20;endArrow=block;endFill=0;curved=1;" parent="1" source="ZC5CJX0L-R8nSynFKBdD-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="413" y="635" />
+              <mxPoint x="413" y="570" />
             </Array>
             <mxPoint x="303" y="785.0000000000002" as="sourcePoint" />
             <mxPoint x="413.00000000000045" y="479.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZC5CJX0L-R8nSynFKBdD-23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ListeEtudianteTriee&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- decorateur : ListeEtudiante&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- categorie : string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- croissant : bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &lt;u&gt;mapCategorie : array&lt;/u&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ __construct(categorie : string, croissant : bool, decorateur : ListeEtudiante)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getWhereListe(): string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getValueSQL(): array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getOrderBy(): string&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="550" width="430" height="170" as="geometry" />
+          <mxGeometry x="-170" y="480" width="430" height="170" as="geometry" />
         </mxCell>
         <mxCell id="ZC5CJX0L-R8nSynFKBdD-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=block;endFill=0;endSize=20;" parent="1" source="ZC5CJX0L-R8nSynFKBdD-26" target="ZC5CJX0L-R8nSynFKBdD-5" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -51,8 +51,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZC5CJX0L-R8nSynFKBdD-26" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ListeEtudianteTrieeParAgregation&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- numeroAgregation : string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- estCroissant : bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- loginEcole : string&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ __construct(numeroPage : int, nbEtudiantPage : int, numeroAgregation : string, estCroissant : bool, loginEcole : String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getListeEtudiante(): array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getWhereListe(): string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getValueSQL(): array&lt;br&gt;# getSelect(): string&lt;br&gt;# getOrderBy(): string&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="740" y="290" width="390" height="190" as="geometry" />
+        <mxCell id="ZC5CJX0L-R8nSynFKBdD-26" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ListeEtudianteTrieeParAgregation&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;- decorateur : ListeEtudiante&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- numeroAgregation : string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- estCroissant : bool&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ __construct(numeroAgregation : string, estCroissant : bool, decorateur : ListeEtudiante)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getListeEtudiante(): array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getWhereListe(): string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getValueSQL(): array&lt;br&gt;# getSelect(): string&lt;br&gt;# getOrderBy(): string&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="740" y="290" width="490" height="200" as="geometry" />
         </mxCell>
         <mxCell id="ZC5CJX0L-R8nSynFKBdD-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;startArrow=diamondThin;startFill=1;endSize=10;startSize=20;" parent="1" source="ZC5CJX0L-R8nSynFKBdD-1" target="ZC5CJX0L-R8nSynFKBdD-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -62,7 +62,7 @@
             <mxPoint x="37" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="INqDUAuAKPOSpSjqcWG4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=block;endFill=0;startSize=6;endSize=20;" edge="1" parent="1" source="INqDUAuAKPOSpSjqcWG4-1" target="ZC5CJX0L-R8nSynFKBdD-5">
+        <mxCell id="INqDUAuAKPOSpSjqcWG4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=block;endFill=0;startSize=6;endSize=20;" parent="1" source="INqDUAuAKPOSpSjqcWG4-1" target="ZC5CJX0L-R8nSynFKBdD-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="480" y="510" />
@@ -70,8 +70,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="INqDUAuAKPOSpSjqcWG4-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ListeEtudianteAvecParcours&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ __construct(numeroPage : int, nbEtudiantPage : int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getWhereListe(): string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getValueSQL(): array&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="760" width="305" height="80" as="geometry" />
+        <mxCell id="INqDUAuAKPOSpSjqcWG4-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ListeEtudianteAvecParcours&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;- decorateur : ListeEtudiante&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ __construct(decorateur : ListeEtudiante)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getWhereListe(): string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getValueSQL(): array&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="680" width="250" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
